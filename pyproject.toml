@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umapbrowser"
+authors = [
+    {name = "Danielle Ensign", email = "phylliida.dev@gmail.com"},
+]
+description = "Simple UMAP Webui browser"
+readme = "README.md"
+requires-python = ">=3.0"
+license = {text = "MIT License"}
+classifiers = [
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "setuptools"
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/Phylliida/umapbrowser.git"
+Issues = "https://github.com/Phylliida/umapbrowser/issues"
