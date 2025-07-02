@@ -1,6 +1,8 @@
 # umapbrowser
 Simple webui to explore runs of UMAP on text data
 
+See outputs for what this looks like [here](https://www.phylliida.dev/modelwelfare/refusalvsbailv3/umap)
+
 ## Installation
 
 ```
@@ -29,4 +31,9 @@ port = 8421
 
 # generate the html files and host webui
 umapbrowser.run(dataLabels=dataLabels, data2DPoints=data2DPoints, outputDirectory=outputDirectory, pageRoot=pageRoot, port=port)
+
+# you can pass webui=False to just generate the output files
 ```
+
+
+
