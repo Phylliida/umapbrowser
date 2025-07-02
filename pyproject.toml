@@ -15,7 +15,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "setuptools"
+    "setuptools",
+    "numpy"
 ]
 dynamic = ["version"]
 
