@@ -1,7 +1,9 @@
 # umapbrowser
 Simple webui to explore runs of UMAP on text data
 
-See outputs for what this looks like [here](https://www.phylliida.dev/modelwelfare/refusalvsbailv3/umap)
+See outputs for what this looks like [here](https://www.phylliida.dev/modelwelfare/refusalvsbailv3/umap).
+
+Right now word cloud and frequencies are buggy, will be fixed eventually (should be small fix).
 
 ## Installation
 
